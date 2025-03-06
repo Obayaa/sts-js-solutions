@@ -6,7 +6,7 @@ let nullVar  = null;
 
 // Checking the Datatypes using the the typeof operator
 console.log(typeof myName);
-console.log(typeof isMarried);
+console.log(typeof isBool);
 console.log(typeof undefinedVar);
 console.log(typeof nullVar)
 
