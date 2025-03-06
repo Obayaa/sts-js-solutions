@@ -3,13 +3,13 @@
 boolean, undefined and null data types */
 
 // Declaring variables
-let myName;
+let my_Name;
 let isSleeping;
-let school;
+let undefined_var;
 let nullVar;
 
 // Assigning the variables
-myName = 'Dora'; // String
+my_Name = 'Dora'; // String
 isSleeping = false // Boolean
-school = undefined; // Undefined
+undefined_var = undefined; // Undefined
 nullVar  = null; // Null

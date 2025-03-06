@@ -4,14 +4,14 @@ let myName = 'Dora';
 let Age = 19;
 let isBool = true;
 let undefinedVar;
-let nullVar  = null;
+let unknown  = null;
 
 // Checking the Datatypes using the the typeof operator
 console.log(typeof myName);
 console.log(typeof Age)
 console.log(typeof isBool);
 console.log(typeof undefinedVar);
-console.log(typeof nullVar)
+console.log(typeof unknown)
 
 
 // QUESTION 6
