@@ -1,6 +1,4 @@
-// SOLUTION TO QUESTION 1 TO 3
-
-
+// QUESTION 1 TO 3
 
 // Comments can make code readable
 

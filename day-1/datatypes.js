@@ -1,5 +1,5 @@
 // QUESTION 5
-//DeclarING DIFFERENT DATATYPES
+//Declaring Different Datatypes
 let myName = 'Dora';
 let Age = 19;
 let isBool = true;
