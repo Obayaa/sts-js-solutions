@@ -1,9 +1,13 @@
-// comments can make code readable
+// SOLUTION TO QUESTION 1 TO 3
+
+
+
+// Comments can make code readable
 
 // Welcome to 30DaysOfJavaScript
 
 /* 
-    comments can make code readable, 
-    easy to reuse and informative 
+    Comments can make code readable, 
+    easy to reuse and informative. 
 */
 

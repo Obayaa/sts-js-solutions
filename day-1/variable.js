@@ -1,14 +1,15 @@
+// QUESTION 4
 /* declare variables and assign string, 
 boolean, undefined and null data types */
 
-// String
-let name = 'Dora'
+// Declaring variables
+let myName;
+let isSleeping;
+let school;
+let nullVar;
 
-// Boolean
-let isMarried = false
-
-// Undefined
-let undefinedVar;
-
-// Null
-let nullVar  = null;
+// Assigning the variables
+myName = 'Dora'; // String
+isSleeping = false // Boolean
+school = undefined; // Undefined
+nullVar  = null; // Null

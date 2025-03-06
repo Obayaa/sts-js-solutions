@@ -1,42 +1,59 @@
-//Declared predefined variables for the typeof operator
+// QUESTION 5
+//DeclarING DIFFERENT DATATYPES
 let myName = 'Dora';
+let Age = 19;
 let isBool = true;
 let undefinedVar;
 let nullVar  = null;
 
 // Checking the Datatypes using the the typeof operator
 console.log(typeof myName);
+console.log(typeof age)
 console.log(typeof isBool);
 console.log(typeof undefinedVar);
 console.log(typeof nullVar)
 
+
+// QUESTION 6
 // Declare four variables without assigning values
 let var1;
 let var2;
 let var3;
 let var4;
 
+
+// QUESTION 7
 // Declare four variables with assigned values
 let name = "Dora";
 let age = 15;
 let isMarried = false;
 let  school = "Slightly Techie School"
 
+
+// QUESTION 8
 // Declare variables to store data in multiple lines
-let first_name = "Dora";
-let last_name = "Appiah";
-let marital_status = "single";
-let country = "Ghana";
-let my_age = 13;
+let first_name;
+let last_name;
+let marital_status;
+let country;
+let my_age;
 
+
+// QUESTION 9
 // Declaring variables to store data on a single line
-let firstName = "Dora", lastName = "Appiah", maritalStatus = "single", myCountry = "Ghana", my_Age = 13;
+let firstName, lastName, maritalStatus, myCountry, my_Age;
 
 
+// QUESTION 10
 // Declaring two variables myAge and yourAge
-let myAge = 25;
-let yourAge = 30;
+// Declaring variables myAge and yourAge
+let myAge;
+let yourAge;
 
-// assigning the declared variables with initial values and logging to the browser console.
+// Assigning initial values to the declared variables.
+myAge = 25;
+yourAge = 30;
+
+// logging to the browser to text given.
 console.log("I am ", myAge, " years old.")
 console.log("You are ", yourAge, " years old.")
