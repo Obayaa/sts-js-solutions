@@ -281,10 +281,10 @@ currentYear = new Date().getFullYear();
 age = currentYear - birthYear;
 
 if (age >= 18){
-    console.log("You are", age, ". You are old enough to drive");
+    console.log(`You are ${age}. You are old enough to drive.`);
 }
 else{
-    console.log("You are", age, `. You will be allowed to drive after, ${18-age} years.`)
+    console.log(`You are ${age}. You will be allowed to drive after ${18-age} years.`)
 }
 // You are 25. You are old enough to drive
 
