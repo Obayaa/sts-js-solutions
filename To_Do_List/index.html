@@ -69,7 +69,7 @@
 
         function DeleteTask(button){
             let list = button.parentElement;
-            let taskId = parseInt(listItem.dataset.id);
+            let taskId = parseInt(list.dataset.id);
 
             let taskList = document.getElementById("taskList"); 
             taskList.removeChild(list);
@@ -79,96 +79,3 @@
     </script>
 </body>
 </html>
-
-<!-- 
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do List</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 400px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .wrapper {
-            display: flex;
-            flex-direction: column;
-        }
-        #todoList {
-            margin-top: 20px;
-        }
-        .todo-item {
-            display: flex;
-            justify-content: space-between;
-            padding: 10px;
-            border-bottom: 1px solid #eee;
-        }
-        .delete-btn {
-            background-color: red;
-            color: white;
-            border: none;
-            padding: 5px 10px;
-            cursor: pointer;
-        }
-    </style>
-</head>
-<body>
-    <div class="wrapper">
-        <div>
-            <input type="text" placeholder="Add an item" id="add">
-            <button type="button" onclick="AddItem()">+</button>
-        </div>
-        <ul id="todoList"></ul>
-    </div>
-
-    <script>
-        // Array to store todo items
-        let todoItems = [];
-
-        function AddItem() {
-            // Get the input element
-            let inputElement = document.getElementById("add");
-            let text = inputElement.value.trim();
-
-            // Check if input is not empty
-            if (text === "") {
-                alert("Please enter a todo item");
-                return;
-            }
-
-            // Add item to the array
-            todoItems.push(text);
-
-            // Create list item
-            let listItem = document.createElement("li");
-            listItem.className = "todo-item";
-            listItem.innerHTML = `
-                <span>${text}</span>
-                <button class="delete-btn" onclick="DeleteItem(this)">Delete</button>
-            `;
-
-            // Add to the list
-            document.getElementById("todoList").appendChild(listItem);
-
-            // Clear input
-            inputElement.value = "";
-        }
-
-        function DeleteItem(button) {
-            // Remove the parent list item
-            let listItem = button.parentElement;
-            let todoList = document.getElementById("todoList");
-            todoList.removeChild(listItem);
-
-            // Optional: Remove from the array if you want to keep track
-            let itemText = listItem.querySelector('span').textContent;
-            todoItems = todoItems.filter(item => item !== itemText);
-        }
-    </script>
-</body>
-</html>
--->
